@@ -11,7 +11,7 @@ import SwiftUI
 struct SwUIDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(presenter: ListPresenter())
         }
     }
 }

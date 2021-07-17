@@ -13,6 +13,9 @@
 		B48BE03E269C4B4700A66286 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48BE03D269C4B4700A66286 /* Preview Assets.xcassets */; };
 		B48BE049269C4B4700A66286 /* SwUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BE048269C4B4700A66286 /* SwUIDemoTests.swift */; };
 		B48BE054269C4B4700A66286 /* SwUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BE053269C4B4700A66286 /* SwUIDemoUITests.swift */; };
+		B4AE222B26A2ED9D0076B677 /* AlignmentToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE222A26A2ED9D0076B677 /* AlignmentToolView.swift */; };
+		B4AE223326A331CD0076B677 /* ToDoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE223226A331CD0076B677 /* ToDoListPresenter.swift */; };
+		B4AE223826A331FE0076B677 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE223726A331FE0076B677 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		B48BE04F269C4B4700A66286 /* SwUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48BE053269C4B4700A66286 /* SwUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwUIDemoUITests.swift; sourceTree = "<group>"; };
 		B48BE055269C4B4700A66286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AE222A26A2ED9D0076B677 /* AlignmentToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentToolView.swift; sourceTree = "<group>"; };
+		B4AE223226A331CD0076B677 /* ToDoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListPresenter.swift; sourceTree = "<group>"; };
+		B4AE223726A331FE0076B677 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				B48BE036269C4B4600A66286 /* SwUIDemoApp.swift */,
+				B4AE223726A331FE0076B677 /* ToDoItem.swift */,
+				B4AE223226A331CD0076B677 /* ToDoListPresenter.swift */,
 				B48BE038269C4B4600A66286 /* ContentView.swift */,
+				B4AE222A26A2ED9D0076B677 /* AlignmentToolView.swift */,
 				B48BE03A269C4B4700A66286 /* Assets.xcassets */,
 				B48BE03F269C4B4700A66286 /* Info.plist */,
 				B48BE03C269C4B4700A66286 /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AE223326A331CD0076B677 /* ToDoListPresenter.swift in Sources */,
+				B4AE222B26A2ED9D0076B677 /* AlignmentToolView.swift in Sources */,
+				B4AE223826A331FE0076B677 /* ToDoItem.swift in Sources */,
 				B48BE039269C4B4600A66286 /* ContentView.swift in Sources */,
 				B48BE037269C4B4600A66286 /* SwUIDemoApp.swift in Sources */,
 			);
